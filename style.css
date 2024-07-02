@@ -10,9 +10,15 @@ header {
   line-height: 1.5;
 }
 
-#icons-container {
+#container {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+#icons-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
   gap: 10%;
   padding: 100px 0px;
 }
